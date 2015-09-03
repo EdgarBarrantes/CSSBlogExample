@@ -13,7 +13,7 @@ body{
 	background-color: #138F9A;
 	}
 /*
-* 
+*
 */
 .main-header-content{
 	margin: 0% 10%;
@@ -22,23 +22,41 @@ body{
 .main-header-content h1{
 	margin: 0% 0%;
 }
+.main-header-content-title{
+	float: left;
+	position: relative;
+  top: 70px;
+	width: 60%;
+}
 .main-header-content-social{
-width: 28%;
-float: right;
+	position: relative;
+	top: 70px;
+	float: right;
+	padding-right: 10%;
+	padding-top: 15%;
+	width: 20%;
+	height: auto;
 }
 .content-nav-list{
 	padding: 0px;
 	margin: 0px;
-}
-.content-nav-list li{
+	position: relative;
+	top: 50%;
+	height: 50px;
+	}
+.nav-list-item{
 	list-style-type: none;
 	display: inline-block;
 	height: 35px;
 	width: auto;
 	padding: 5px;
 }
-.nav-list-text{
+.nav-list-item:hover{
+	background-color: rgb(64, 175, 183);
+}
+.nav-list-link{
 	text-decoration: none;
+	color: white;
 }
 .content-nav-list{
 	float: left;
@@ -46,15 +64,19 @@ float: right;
 
 .social-links-list{
 	float: right;
-
+	clear: right;
 }
 .social-links-list li{
 	list-style-type: none;
 	display: inline-block;
+
+}
+.social-links p{
+	float: right;
 }
 /*The image should be modified for performance*/
 .social-image{
-	width: 48px;
+	width: 32px;
 	height: auto;
 }
 
@@ -89,7 +111,7 @@ float: right;
 .sidebar-block input{
 	text-align: center;
 	background-color: #949494;
-	height: 35px;
+	height: 40px;
 	width: auto;
 	border: 0px;
 	padding: 0px;
@@ -97,8 +119,8 @@ float: right;
 .sidebar-block button{
 	background-color: #2AA9E0;
 	border: 0px;
-	height: 35px;
-	width: 169px;
+	height: 40px;
+	width: auto;
 }
 .footer-content{
 	margin: 0% 10%;
@@ -109,9 +131,4 @@ footer{
 	clear: left;
 	height: 100px;
 	background-color: #CDCDCD;
-}
-.content-nav-list{
-	position: relative;
-	top: 50%;
-	height: 50px;
 }
