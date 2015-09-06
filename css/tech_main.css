@@ -1,0 +1,33 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.main-nav{
+	background-color: white;
+	margin-left: 10%;
+	width: 48%;
+	float: left;
+	margin-top: -150px;
+	padding-top: 0px;
+}
+.main-nav-featured img{
+	width: 100%;
+	height: auto;
+}
+.main-nav-article img{
+	width: 50%;
+	float: left;
+	max-width: 300px;
+}
+.main-nav-featured{
+	padding: 0% 4%;
+}
+.main-nav-article{
+	padding: 0% 4%;
+}
+.main-nav-separator{
+	height: 1px;
+	background-color: #AEAEAE;
+	clear: both;
+	margin: 3% 4%;
+}

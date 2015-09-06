@@ -1,0 +1,29 @@
+.sidebar{
+	margin-right: 10%;
+	width: 28%;
+	float: right;
+}
+.sidebar-block input{
+	text-align: center;
+	background-color: #D1D1D1;
+	height: 40px;
+	width: auto;
+	border: 0px;
+	padding: 0px;
+}
+.sidebar-block button{
+	background-color: #2AA9E0;
+	border: 0px;
+	height: 40px;
+	width: auto;
+}
+.footer-content{
+	margin: 0% 10%;
+}
+footer{
+	padding-top: 0px;
+	position: ;
+	clear: left;
+	height: 100px;
+	background-color: #CDCDCD;
+}
