@@ -1,10 +1,9 @@
 .main-header{
-	position: ;
 	top: 0px;
 	left: 0px;
 	height: 300px;
 	width: auto;
-	background-color: #138F9A;
+	background-color: #00A0AA;
 }
 .main-header-content{
 	margin: 0% 10%;
@@ -13,6 +12,7 @@
 	position: relative;
 	top: 24px;
 	width: 60%;
+	font-family: 'Montserrat', sans-serif;
 }
 .main-header-main-title{
 	margin: 0%;
