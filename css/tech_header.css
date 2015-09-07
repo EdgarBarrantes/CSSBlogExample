@@ -9,7 +9,6 @@
 }
 .main-header-content{
 	margin: 0% 0% 0% 10%;
-	color: white;
 	float: left;
 	position: relative;
 	top: 24px;
@@ -27,6 +26,7 @@
 	position: relative;
 	top: 50%;
 	height: 50px;
+	float: left;
 }
 .nav-list-item{
 	list-style-type: none;
@@ -34,17 +34,15 @@
 	height: 35px;
 	width: auto;
 	padding: 5px;
-	font-size: 20px;
+	font-size: 24px;
+	font-weight: 100;
 }
 .nav-list-item:hover{
-	background-color: rgb(64, 175, 183);
+	background-color: #40AFB7;
 }
 .nav-list-link{
 	text-decoration: none;
-	color: white;
-}
-.content-nav-list{
-	float: left;
+	color: inherit;
 }
 /*Social links of the header.*/
 .main-header-social{
@@ -54,7 +52,6 @@
 	clear:right;
 	width: 20%;
 	height: 150px;
-	font-size: 24px;
 	top: 150px;
 }
 .social-links-list{
@@ -62,8 +59,9 @@
 	padding: 0%;
 	height: 150px;
 	width: auto;
+	font-size: 24px;
 }
-.social-links-list li{
+.social-links-list-elements{
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);

@@ -4,12 +4,20 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 .main-nav{
+	flex: 1;
+	position: relative;
 	background-color: white;
 	margin-left: 10%;
 	width: 48%;
 	float: left;
 	margin-top: -150px;
 	padding-top: 0px;
+}
+.main-nav-featured{
+	padding: 0% 4%;
+}
+.main-nav-article{
+	padding: 0% 4%;
 }
 .main-nav-featured img{
 	width: 100%;
@@ -19,12 +27,6 @@ body{
 	width: 50%;
 	float: left;
 	max-width: 300px;
-}
-.main-nav-featured{
-	padding: 0% 4%;
-}
-.main-nav-article{
-	padding: 0% 4%;
 }
 .main-nav-separator{
 	height: 1px;

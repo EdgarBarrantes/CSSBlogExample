@@ -1,7 +1,9 @@
 .sidebar{
+	position: relative;
 	margin-right: 10%;
 	width: 28%;
 	float: right;
+	font-family: 'Montserrat', sans-serif;
 }
 .sidebar-block input{
 	text-align: center;
@@ -10,20 +12,56 @@
 	width: auto;
 	border: 0px;
 	padding: 0px;
+	font-family: inherit;
 }
 .sidebar-block button{
 	background-color: #2AA9E0;
 	border: 0px;
 	height: 40px;
 	width: auto;
-}
-.footer-content{
-	margin: 0% 10%;
+	font-family: inherit;
 }
 footer{
-	padding-top: 0px;
-	position: ;
-	clear: left;
-	height: 100px;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	position: relative;
 	background-color: #CDCDCD;
+	bottom: 0;
+	height: 150px;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	color: #4B4B4B;
+
+}
+.content-nav-footer{
+	height: 150px;
+	margin: 0% 0% 0% 10%;
+	float: left;
+	width: 50%;
+	color: inherit;
+}
+.content-nav-list-footer{
+	height: 150px;
+	width: auto;
+}
+.footer-social-links{
+	float: right;
+	width: 30%;
+	height: auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.nav-list-item-footer{
+	margin: 0px;
+	padding: 0px;
+	padding: 0px;
+	top: 50%;
+	transform: translateY(-50%);
+	display: inline-block;
+}
+.nav-list-item-footer:hover{
+	background-color: #AEAEAE !important;
+	/*Searching for an alternative for the important tag*/
 }
