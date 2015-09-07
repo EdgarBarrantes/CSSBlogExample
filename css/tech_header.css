@@ -1,12 +1,14 @@
+/*General header and title*/
 .main-header{
 	top: 0px;
 	left: 0px;
 	height: 300px;
 	width: auto;
 	background-color: #00A0AA;
+	color: white;
 }
 .main-header-content{
-	margin: 0% 10%;
+	margin: 0% 0% 0% 10%;
 	color: white;
 	float: left;
 	position: relative;
@@ -16,16 +18,9 @@
 }
 .main-header-main-title{
 	margin: 0%;
+	font-size: 48px;
 }
-.main-header-social{
-	position: relative;
-	top: 70px;
-	float: right;
-	padding-right: 10%;
-	padding-top: 15%;
-	width: 20%;
-	height: auto;
-}
+/*List of contents*/
 .content-nav-list{
 	padding: 0px;
 	margin: 0px;
@@ -39,6 +34,7 @@
 	height: 35px;
 	width: auto;
 	padding: 5px;
+	font-size: 20px;
 }
 .nav-list-item:hover{
 	background-color: rgb(64, 175, 183);
@@ -50,19 +46,27 @@
 .content-nav-list{
 	float: left;
 }
-.social-links-list{
+/*Social links of the header.*/
+.main-header-social{
+	margin-right: 10%;
+	position: relative;
 	float: right;
-	clear: right;
+	clear:right;
+	width: 20%;
+	height: 150px;
+	font-size: 24px;
+	top: 150px;
+}
+.social-links-list{
+	margin: 0%;
+	padding: 0%;
+	height: 150px;
+	width: auto;
 }
 .social-links-list li{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 	list-style-type: none;
 	display: inline-block;
-
-}
-.social-links p{
-	float: right;
-}
-.social-image{
-	width: 32px;
-	height: auto;
 }
